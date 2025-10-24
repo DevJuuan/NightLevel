@@ -1,0 +1,54 @@
+@import url("https://fonts.googleapis.com/css2?family=Orbitron:wght@600;800&family=Poppins:wght@400;600&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+body {
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+  background-color: #0a0612;
+  color: #ededed;
+}
+
+
+.principal-categorias {
+  max-width: 1200px;
+  margin: 40px auto;
+  padding: 0 18px 60px;
+  text-align: center;
+}
+.titulo-sessao {
+  font-family: "Orbitron", sans-serif;
+  color: #00ffff;
+  font-size: 28px;
+  margin-bottom: 20px;
+}
+
+.map-image {
+  width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 10px;
+}
+
+.nota{
+  margin: 15px auto;
+  border-bottom: 1px solid #00ffff;
+  max-width: 260px;
+  padding-bottom: 4px;
+  text-shadow: 0 0 3px #00ffff;
+}
+
+.rodape {
+  text-align: center;
+  font-size: 14px;
+  color: #777;
+  border-top: 1px solid #361260;
+}
+
+.rodape p{
+    padding: 5px 0 20px 0;
+}

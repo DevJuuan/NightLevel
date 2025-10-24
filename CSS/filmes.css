@@ -1,0 +1,136 @@
+@import url("https://fonts.googleapis.com/css2?family=Orbitron:wght@600;800&family=Poppins:wght@400;600&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #0a0612;
+  color: #ededed;
+  font-family: "Poppins", sans-serif;
+}
+
+.principal {
+  text-align: center;
+  padding: 30px 5%;
+}
+
+.titulo {
+  font-family: "Orbitron", sans-serif;
+  color: #8a2be2;
+  font-size: 36px;
+  margin-bottom: 10px;
+}
+
+.descricao {
+  color: #bfbfbf;
+  margin-bottom: 40px;
+}
+
+.banner img {
+  width: 90%;
+  max-width: 600px;
+  border-radius: 10px;
+  border: 2px solid #8a2be2;
+  box-shadow: 0 0 20px #8a2be2;
+  margin-bottom: 40px;
+}
+
+.tabela-section {
+  margin: 40px auto;
+  width: 90%;
+  max-width: 900px;
+}
+
+.subtitulo {
+  font-family: "Orbitron", sans-serif;
+  color: #a356ff;
+  font-size: 26px;
+  margin-bottom: 20px;
+}
+
+.tabela {
+  width: 100%;
+  border-collapse: collapse;
+  border: 1px solid #8a2be2;
+  box-shadow: 0 0 20px #6f00ff33;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.tabela th, .tabela td {
+  padding: 12px 10px;
+  text-align: center;
+  border-bottom: 1px solid #442061;
+}
+
+.tabela th {
+  background-color: #181123;
+  color: #c987ff;
+  font-weight: 600;
+}
+
+.tabela tr:nth-child(even) {
+  background-color: #130a1f;
+}
+
+.tabela tr:hover {
+  background-color: #1f1430;
+  transition: 0.3s;
+}
+
+.cards-section {
+  margin-top: 50px;
+}
+
+.cards {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.card {
+  background-color: #181123;
+  border: 1px solid #8a2be2;
+  border-radius: 10px;
+  width: 280px;
+  overflow: hidden;
+  transition: 0.3s;
+}
+
+.card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 15px #8a2be2;
+  cursor: pointer;
+}
+
+.card img {
+  width: 100%;
+  height: 160px;
+}
+
+.card h3 {
+  margin: 10px;
+  color: #ff66ff;
+  font-family: "Orbitron", sans-serif;
+}
+
+.card p {
+  margin: 0 10px 15px;
+  color: #bbb;
+  font-size: 14px;
+}
+
+.rodape {
+  text-align: center;
+  font-size: 14px;
+  color: #777;
+  border-top: 1px solid #361260;
+}
+
+.rodape p{
+    padding: 5px 0 20px 0;
+}
