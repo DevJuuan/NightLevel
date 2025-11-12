@@ -1,0 +1,45 @@
+.intro-section{
+  margin-top: 15px;
+}
+
+.subtitulo {
+  font-family: "Orbitron", sans-serif;
+  font-size: 25px;
+  color: #00ffff;
+  text-shadow: 0 0 10px #8a2be2;
+  text-align: center;
+  margin: 60px 0 20px 0;
+}
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 25px;
+}
+
+.cardnoticia {
+  background-color: #0e0e1a;
+  border: 2px solid #8a2be2;
+  border-radius: 12px;
+  box-shadow: 0 0 15px #8a2be280;
+  width: 320px;
+  text-align: center;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.cardnoticia:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 25px #00ffff;
+}
+
+.rodape {
+  text-align: center;
+  font-size: 14px;
+  color: #777;
+  border-top: 1px solid #361260;
+}
+
+.rodape p{
+    padding: 15px 0;
+}
