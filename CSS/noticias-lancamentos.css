@@ -1,3 +1,4 @@
+
 .intro-section{
   margin-top: 15px;
 }
@@ -9,6 +10,16 @@
   text-shadow: 0 0 10px #8a2be2;
   text-align: center;
   margin: 60px 0 20px 0;
+}
+
+.subtitulo2 {
+  font-family: "Orbitron", sans-serif;
+  font-size: 25px;
+  color: #00ffff;
+  text-shadow: 0 0 10px #8a2be2;
+  text-align: center;
+  margin: 60px 0 20px 0;
+  margin-right: 50px;
 }
 
 .cards {
@@ -42,4 +53,61 @@
 
 .rodape p{
     padding: 15px 0;
+}
+
+@media screen and (max-width: 1300px) {
+      .cabecalho {
+        flex-direction: column;
+        text-align: center;
+        gap: 10px;
+        align-items: center;
+        justify-content: center;
+        max-width: 100%;
+    }
+
+    .container-logo {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+
+    .logo-texto {
+        font-size: 12px;
+        display: block;
+        margin-top: 4px;
+    }
+
+    .menu {
+        display: flex;
+        flex-direction: column;
+        gap: 6px;
+        text-align: center;
+    }
+
+    .menu p,
+    .item-menu {
+        font-size: 25px;
+        padding: 6px 0;
+    }
+
+  .intro-section{
+    align-items: center;
+    text-align: center;
+  }
+
+  .cards{
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+  }
+
+  .cardnoticia{
+    height: 500px;
+  }
+
+  .subtitulo2{
+    margin-right: 0;
+  }
+
 }

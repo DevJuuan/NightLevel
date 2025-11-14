@@ -106,3 +106,10 @@ iframe{
     text-align: center;
     margin-bottom: 30px;
 }
+
+@media screen and (max-width: 1380px) {
+  .container{
+    flex-direction: column-reverse;
+    padding-bottom: 3%;
+  }
+}

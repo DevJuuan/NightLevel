@@ -114,3 +114,14 @@ button:hover {
 .links span{
     color: #c4aaff;
 }
+
+@media screen and (max-width: 1230px) {
+    .register-card{
+        width: 90%;
+        height: auto;
+    }
+
+    body{
+        height: auto;
+    }
+}

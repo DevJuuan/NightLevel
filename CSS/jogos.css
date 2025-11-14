@@ -115,3 +115,41 @@ body {
 .rodape p{
     padding: 5px 0 20px 0;
 }
+
+@media screen and (max-width: 1230px) {
+      .cabecalho {
+        flex-direction: column;
+        text-align: center;
+        gap: 10px;
+        align-items: center;
+        justify-content: center;
+        max-width: 100%;
+    }
+
+    .container-logo {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+
+    .logo-texto {
+        font-size: 12px;
+        display: block;
+        margin-top: 4px;
+    }
+
+    .menu {
+        display: flex;
+        flex-direction: column;
+        gap: 6px;
+        text-align: center;
+    }
+
+    .menu p,
+    .item-menu {
+        font-size: 25px;
+        padding: 6px 0;
+    }
+
+}

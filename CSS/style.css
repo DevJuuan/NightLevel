@@ -259,6 +259,43 @@ header{
   padding-top: 10px;
 }
 
+@media screen and (max-width: 1380px) {
+  .menu {
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+  }
+
+  .cabecalho{
+    flex-direction: column;
+    padding-bottom: 4%;
+  }
+
+  .cabecalho img.logo {
+    width: 160px;
+  }
+
+  .principal, .conteudo {
+    padding: 20px;
+  }
+
+  .cards{
+    width: 60%;
+  }
+
+  .cardprincipal{
+    width: 50%;
+  }
+}
+
+@media screen and (max-width: 1150px) {
+  .cards{
+    width: 100%;
+  }
+}
+
+
 
 
 

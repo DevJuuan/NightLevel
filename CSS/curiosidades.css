@@ -108,3 +108,179 @@ body {
     padding: 5px 0 20px 0;
 }
 
+
+@media screen and (max-width: 2560px) {
+
+    .conteudo {
+        width: 80%;
+        margin: auto;
+    }
+
+    .grid-curiosidades {
+        grid-template-columns: repeat(auto-fill, minmax(370px, 1fr));
+        gap: 15px; 
+        width: 100%;
+        justify-items: center;
+    }
+
+    .card {
+        width: 350px;
+        height: 480px;
+        border-radius: 16px;
+    }
+
+    .card img {
+        height: 240px;
+        object-fit: cover;
+    }
+
+    .titulo {
+        font-size: 50px;
+    }
+
+    .subtitulo {
+        font-size: 34px;
+    }
+
+    .card h3 {
+        font-size: 22px;
+    }
+
+    .card p {
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width: 2245px) {
+    .grid-curiosidades{
+        width:60%;
+        align-items: center;
+        justify-content: center;
+        margin: 0 20%;
+    }
+
+    .subtitulo{
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 1850px) {
+    .grid-curiosidades {
+    grid-template-columns: repeat(auto-fill, minmax(230px, 1fr));
+    gap: 95px;
+    }
+
+    .card {
+        width: 380px;
+        height: 380px; 
+        display: flex;
+        flex-direction: column;
+    }
+
+    .card img {
+        height: 200px; 
+        object-fit: cover;
+    }
+
+
+    .subtitulo{
+        text-align: center;
+    }
+}
+
+
+@media screen and (max-width: 1400px) {
+    .grid-curiosidades{
+        width:60%;
+        align-items: center;
+        justify-content: center;
+        margin: 0 20%;
+    }
+
+    .subtitulo{
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 1185px) {
+
+    .grid-curiosidades {
+        width: 90%;
+        margin: 0 auto;
+        grid-template-columns: repeat(auto-fill, minmax(360px, 1fr));
+        justify-items: center;
+    }
+
+    .card {
+        width: 380px;
+        height: 380px; 
+        display: flex;
+        flex-direction: column;
+    }
+
+    .card img {
+        height: 200px; 
+        object-fit: cover;
+    }
+}
+
+
+@media screen and (max-width: 1230px) {
+
+    .cabecalho {
+        flex-direction: column;
+        text-align: center;
+        gap: 10px;
+        align-items: center;
+        justify-content: center;
+        max-width: 90%;
+    }
+
+    .container-logo {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+
+    .logo-texto {
+        font-size: 12px;
+        display: block;
+        margin-top: 4px;
+    }
+
+    .menu {
+        display: flex;
+        flex-direction: column;
+        gap: 6px;
+        text-align: center;
+    }
+
+    .menu p,
+    .item-menu {
+        font-size: 25px;
+        padding: 6px 0;
+    }
+
+    .secao{
+        align-items: center;
+        justify-content: center;
+    }
+
+    .categorias{
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(230px, 1fr));
+        text-align: center;
+    }
+
+
+    .titulo{
+        font-size:  120%;
+    }
+
+    .card{
+        width: 80%;
+        height: 100%;
+    }
+}
+
