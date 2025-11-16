@@ -161,6 +161,13 @@ header{
   padding: 20px;
 }
 
+.cards img {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
 .cardnoticia {
   background-color: #151021;
   border: 1px solid #8a2be2;
@@ -169,6 +176,7 @@ header{
   transition: box-shadow 0.3s ease;
   width: 300px;
   overflow: hidden;
+  padding: 15px 15px 0 15px;
 }
 
 .cardnoticia:hover {
