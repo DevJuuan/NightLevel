@@ -3,7 +3,7 @@
   flex-wrap: wrap;
   justify-content: center;
   gap: 30px;
-  padding: 20px;
+  padding: 40px;
 }
 
 .cardnoticia {
@@ -14,6 +14,14 @@
   transition: box-shadow 0.3s ease;
   width: 300px;
   overflow: hidden;
+  padding: 15px 15px 0 15px;
+}
+
+.cards img {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+  border-radius: 10px;
 }
 
 .cardnoticia:hover {

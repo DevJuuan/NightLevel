@@ -89,7 +89,8 @@ body {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
-  gap: 20px;
+  gap: 25px;
+  padding-bottom: 40px;
 }
 
 .card {
@@ -98,14 +99,15 @@ body {
   border-radius: 10px;
   text-align: center;
   width: 260px;
-  padding: 15px;
   transition: 0.3s;
 }
 
 .card img {
   width: 100%;
-  border-radius: 10px;
+  height: 300px;
+  border-radius: 15px;
   margin-bottom: 10px;
+  padding: 15px 15px 0 15px ;
 }
 
 .card:hover {
@@ -169,8 +171,23 @@ body {
 
     .menu p,
     .item-menu {
-        font-size: 25px;
+        font-size: 18px;
         padding: 6px 0;
     }
+}
+
+@media screen and (max-width: 518px) {
+  .tabela-section{
+    width: 100%;
+  }
+
+  .principal{
+    padding: 0;
+  }
+
+
+  .banner{
+    width: 80%;
+  }
 
 }
