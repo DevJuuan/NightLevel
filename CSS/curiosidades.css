@@ -226,14 +226,13 @@ body {
 
 
 @media screen and (max-width: 1230px) {
-
-    .cabecalho {
+      .cabecalho {
         flex-direction: column;
         text-align: center;
         gap: 10px;
         align-items: center;
         justify-content: center;
-        max-width: 90%;
+        max-width: 100%;
     }
 
     .container-logo {
@@ -258,7 +257,7 @@ body {
 
     .menu p,
     .item-menu {
-        font-size: 25px;
+        font-size: 15px;
         padding: 6px 0;
     }
 
