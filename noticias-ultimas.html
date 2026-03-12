@@ -39,17 +39,18 @@
         <h1 class="titulo">Notícias</h1>
 
         <nav class="categorias">
-            <a href="#">Jogos</a>
-            <a href="#">Filmes</a>
-            <a href="#">Séries</a>
-            <a href="#">Animes</a>
-            <a href="#">Livros</a>
-            <a href="#">Mangá</a>
+            <a href="#" data-filtro="todos">Todos</a>
+            <a href="#" data-filtro="jogos">Jogos</a>
+            <a href="#" data-filtro="filmes">Filmes</a>
+            <a href="#" data-filtro="series">Séries</a>
+            <a href="#" data-filtro="animes">Animes</a>
+            <a href="#" data-filtro="livros">Livros</a>
+            <a href="#" data-filtro="manga">Mangá</a>
         </nav>
 
         <section class="grid-noticias">
 
-            <article class="card">
+            <article class="card" data-categoria="jogos">
                 <img src="imagens/NVIDIA-ultimas.jpg" alt="Notícia Exemplo">
                 <div class="card-info">
                     <span class="tag jogos">Jogos</span>
@@ -59,7 +60,7 @@
                 </div>
             </article>
 
-            <article class="card">
+            <article class="card" data-categoria="filmes">
                 <img src="imagens/cinemacon-ultimas.jpg" alt="Notícia Exemplo">
                 <div class="card-info">
                     <span class="tag filmes">Filmes</span>
@@ -69,7 +70,7 @@
                 </div>
             </article>
 
-            <article class="card">
+            <article class="card" data-categoria="animes">
                 <img src="imagens/chainsaw-ultimas.jpeg" alt="Notícia Exemplo">
                 <div class="card-info">
                     <span class="tag animes">Animes</span>
@@ -79,27 +80,27 @@
                 </div>
             </article>
 
-            <article class="card">
+            <article class="card" data-categoria="series">
                 <img src="imagens/blackmirror-ultimas.jpg" alt="Notícia Exemplo">
                 <div class="card-info">
-                    <span class="tag series">Series</span>
+                    <span class="tag series">Séries</span>
                     <h2>Black Mirror retorna em 2025 com 6 novos episódios, incluindo sequência de "USS Callister"</h2>
                     <p>A série antológica da Netflix vai lançar novas histórias e, pela primeira vez, um episódio será continuação direta de um capítulo anterior.</p>
                     <a href="#" class="btn-ler">Ler mais</a>
                 </div>
             </article>
 
-            <article class="card">
+            <article class="card" data-categoria="series">
                 <img src="imagens/911-ultimas.jpg" alt="Notícia Exemplo">
                 <div class="card-info">
-                    <span class="tag series">Series</span>
+                    <span class="tag series">Séries</span>
                     <h2>Chris O’Donnell estrela novo spin-off "9-1-1: Nashville" em 2025</h2>
                     <p>O ator entrará na franquia “9-1-1” como capitão de um corpo de bombeiros em Nashville, na nova série da ABC.</p>
                     <a href="#" class="btn-ler">Ler mais</a>
                 </div>
             </article>
 
-            <article class="card">
+            <article class="card" data-categoria="filmes">
                 <img src="imagens/D23-ultimas.jpg" alt="Notícia Exemplo">
                 <div class="card-info">
                     <span class="tag filmes">Filmes</span>
@@ -109,7 +110,7 @@
                 </div>
             </article>
 
-            <article class="card">
+            <article class="card" data-categoria="livros">
                 <img src="imagens/jogosvorazes-ultimas.jpeg" alt="Notícia Exemplo">
                 <div class="card-info">
                     <span class="tag livros">Livros</span>
@@ -119,7 +120,7 @@
                 </div>
             </article>
 
-            <article class="card">
+            <article class="card" data-categoria="manga">
                 <img src="imagens/crunchyroll-ultimas.jpg" alt="Notícia Exemplo">
                 <div class="card-info">
                     <span class="tag manga">Mangá</span>
@@ -136,6 +137,8 @@
     <footer class="rodape">
         <p>© 2025 Night Level - Todos os direitos reservados</p>
     </footer>
-
+    
+    <script src="script.js"></script>
 </body>
+
 </html>

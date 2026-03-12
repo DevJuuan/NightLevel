@@ -39,17 +39,18 @@
         <h1 class="titulo">News</h1>
 
         <nav class="categorias">
-            <a href="#">Games</a>
-            <a href="#">Movies</a>
-            <a href="#">Series</a>
-            <a href="#">Anime</a>
-            <a href="#">Books</a>
-            <a href="#">Manga</a>
+            <a href="#" data-filtro="todos">All</a>
+            <a href="#" data-filtro="jogos">Games</a>
+            <a href="#" data-filtro="filmes">Movies</a>
+            <a href="#" data-filtro="series">Series</a>
+            <a href="#" data-filtro="animes">Anime</a>
+            <a href="#" data-filtro="livros">Books</a>
+            <a href="#" data-filtro="manga">Manga</a>
         </nav>
 
         <section class="grid-noticias">
 
-            <article class="card">
+            <article class="card" data-categoria="jogos">
                 <img src="../imagens/NVIDIA-ultimas.jpg" alt="Example News">
                 <div class="card-info">
                     <span class="tag jogos">Games</span>
@@ -59,7 +60,7 @@
                 </div>
             </article>
 
-            <article class="card">
+            <article class="card" data-categoria="filmes">
                 <img src="../imagens/cinemacon-ultimas.jpg" alt="Example News">
                 <div class="card-info">
                     <span class="tag filmes">Movies</span>
@@ -69,7 +70,7 @@
                 </div>
             </article>
 
-            <article class="card">
+            <article class="card" data-categoria="animes">
                 <img src="../imagens/chainsaw-ultimas.jpeg" alt="Example News">
                 <div class="card-info">
                     <span class="tag animes">Anime</span>
@@ -79,7 +80,7 @@
                 </div>
             </article>
 
-            <article class="card">
+            <article class="card" data-categoria="series">
                 <img src="../imagens/blackmirror-ultimas.jpg" alt="Example News">
                 <div class="card-info">
                     <span class="tag series">Series</span>
@@ -89,7 +90,7 @@
                 </div>
             </article>
 
-            <article class="card">
+            <article class="card" data-categoria="series">
                 <img src="../imagens/911-ultimas.jpg" alt="Example News">
                 <div class="card-info">
                     <span class="tag series">Series</span>
@@ -99,7 +100,7 @@
                 </div>
             </article>
 
-            <article class="card">
+            <article class="card" data-categoria="filmes">
                 <img src="../imagens/D23-ultimas.jpg" alt="Example News">
                 <div class="card-info">
                     <span class="tag filmes">Movies</span>
@@ -109,7 +110,7 @@
                 </div>
             </article>
 
-            <article class="card">
+            <article class="card" data-categoria="livros">
                 <img src="../imagens/jogosvorazes-ultimas.jpeg" alt="Example News">
                 <div class="card-info">
                     <span class="tag livros">Books</span>
@@ -119,7 +120,7 @@
                 </div>
             </article>
 
-            <article class="card">
+            <article class="card" data-categoria="manga">
                 <img src="../imagens/crunchyroll-ultimas.jpg" alt="Example News">
                 <div class="card-info">
                     <span class="tag manga">Manga</span>
@@ -137,5 +138,6 @@
         <p>© 2025 Night Level - All rights reserved</p>
     </footer>
 
+    <script src="../script.js"></script>
 </body>
 </html>
